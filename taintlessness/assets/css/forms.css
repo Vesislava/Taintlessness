@@ -1,0 +1,71 @@
+.form-search {
+	float: right;
+	position: relative;
+	bottom: 50px;
+
+
+}
+
+form input {
+	width: 245px;
+	height: 36px;
+	color: #666666;
+	background-color: #e6dfd9;
+	border: none;
+	border-radius: 10px;
+	outline: none;
+}
+
+input, [type="text"] {
+	font-family: 'baskervvilleregular';
+	font-size: 12px;
+	padding-left: 8px;	
+}
+
+input, [type="submit"] {
+	width: 68px;
+	font-family: 'baskervvilleregular';
+	font-size: 12px;
+	padding-left: 4px;	
+	background-color: #e95a3c;
+	color: #fff;
+
+}
+
+@media only screen and (max-width: 1200px) {
+
+
+}
+
+@media only screen and (max-width: 992px) {
+	.form-search {
+		display: none;
+	}
+
+}
+
+@media only screen and (max-width: 768px) {
+	.form-search {
+		display: none;
+	}
+
+	/*newsletter form*/
+
+	p.newsletter-form input {
+		display: inline-block;
+		width: 100%;
+	
+	}
+
+	input, [type="submit"] {
+	width: 40px;
+
+	padding-left: 4px;	
+	background-color: #e95a3c;
+	color: #fff;
+
+}
+
+
+
+}

@@ -1,0 +1,136 @@
+/* Title COntent */
+
+div.text-content {
+	text-align: center;
+	padding: 50px;	 
+
+}
+
+div.content h2.title-content {
+	font-size: 2.25em;
+
+}
+
+div.content p.sm-tx-content {
+	font-size: 1.12em;
+	font-style: italic;
+	padding: 20px 136px 0 136px;
+	line-height: 1.5;
+
+}
+
+/* Title Post*/
+
+div.post {
+
+
+}
+
+div.post-text {
+	min-height: 225px;
+	width: 240px;
+
+	float: left;
+
+
+
+}
+
+div.post-text h3 {
+	font-size: 1.12em;
+	padding-bottom: 8px;
+}
+
+div.post-text p {
+	width: 209px;
+	height: 98px;
+	line-height: 18px;
+	font-size: 0.81em;
+}
+
+div.post-text a {
+	position: relative;
+	top: 17px;
+}
+
+div.post-text a > img {
+	position: relative;
+	top: 1px;	
+}
+
+@media only screen and (max-width: 1200px) {
+
+
+}
+
+@media only screen and (max-width: 992px) {
+	div.line {
+		width: 100%;	
+		left: 0;
+	}
+	div.line > img {
+			width: 100%;
+			
+		}
+
+	div.content {
+		margin-top: 55px;
+		border-top: 1px solid #E8DACE;
+	}
+
+
+@media only screen and (max-width: 768px) {
+	div.content {
+		margin-top: 40px;
+		border-top: 1px solid #E8DACE;
+	}
+
+	.content div.text-content {
+		width: 100%;
+		padding: 25px;
+	}
+
+	.content div.text-content p {
+		padding: 10px 0 0 0;
+		width: 100%;
+		font-size: 1.4em;
+	}
+
+	/* POST */
+
+	div.post-text {
+		width: 100%;
+		min-height: 180px;
+		
+	}
+
+	div.post-clr {
+		background-color: #FBF9F9;
+	}
+
+	div.post-text h3 {
+		width: 100%;
+		text-align: center;
+		font-size: 1.5em;	
+		padding-top: 15px;
+	}
+
+	div.post-text p {
+		width: 100%;
+		text-align: left;
+		font-size: 1.2em;
+		padding-left: 20px;
+		height: 70px;
+	
+	}
+
+	div.post-text a {
+		left: 35%;
+		margin-bottom: 50px;
+	}
+
+	div.line > img {
+		display: none;
+		
+	}
+}

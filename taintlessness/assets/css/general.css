@@ -1,0 +1,50 @@
+ /* General */
+
+ * {
+ 	font-family: 'baskervvilleregular';
+ 	font-size: 16px;
+ }
+
+ .container-fluid {
+ 	max-width: 960px;
+ 	margin:0 auto;
+ }
+
+ .clf:after {
+ 	content: "";
+ 	clear: both;
+ 	display: block;
+
+ }
+
+/* Main Menu Colors*/
+
+ .main-menu_bg-cl {
+ 	background-color: #e95a3c;
+ }
+
+  .home-menu_bg-cl {
+ 	background-color: #957964;
+ }
+
+ .big-tx-menu_cl {
+ 	color: #947964;	
+ }
+
+ .small-tx_menu-cl {
+ 	color: #999999;
+ }
+
+ /*Bottom Menu Color*/
+
+ .bottom-tx_cl {
+ 	color: #a0a0a0;
+ }
+
+ .bottom-menu-big-tx_cl {
+ 	color: #957964;
+ }
+
+.bottom-menu-small-tx_cl {
+	color: #666666;
+}
